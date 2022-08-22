@@ -1,5 +1,0 @@
-SELECT d.fielder, COUNT(d.fielder) fielding 
-FROM deliveries d 
-GROUP BY d.fielder 
-ORDER BY fielding DESC;
-
